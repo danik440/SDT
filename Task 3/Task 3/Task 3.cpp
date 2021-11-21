@@ -17,7 +17,7 @@ int main()
 {
 
 	int a, b, S, P, r = 1;
-	setlocale(LC_ALL, "Russian");
+	setlocale(LC_ALL, "rus");
 	cout << "Введите ширину а: "; cin >> a;
 	cout << "ВВедите длину b: "; cin >> b;
 	S = a * b;
@@ -33,7 +33,6 @@ int main()
 
 	
 	int i, n;
-	setlocale(LC_ALL, "Russian");
 	cout << "Введите число n: "; cin >> n;
 	for (i = 1; i <= n; i++) {
 		r = r * i;
@@ -55,7 +54,6 @@ int main()
 
 	
 	int x, z, l = 0, g = 0;
-	setlocale(LC_ALL, "Russian");
 	cout << "Введите число z: "; cin >> z;
 	cout << "Введите число x: "; cin >> x;
 	for (int p = 2; p <= z; p++) {
@@ -80,7 +78,6 @@ int main()
 
 	
 	int dec;
-	setlocale(LC_ALL, "Russian");
 	cout << "Введите число: ";
 	cin >> dec;
 	cout << "Представление в двоичном виде: " << from_dec_to_bin(dec) << endl;
